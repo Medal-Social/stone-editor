@@ -1,12 +1,17 @@
 {
-  "name": "@stone-editor/core",
+  "name": "stone-editor",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "A rich text editor.",
+  "main": "index.ts",
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^20.14.10"
+  },
   "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Medal Social",
+  "license": "MIT"
 }
