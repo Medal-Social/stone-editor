@@ -1,7 +1,8 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "@stone-editor/web",
+  "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
